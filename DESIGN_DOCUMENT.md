@@ -274,7 +274,7 @@ Querying a live API at runtime would require internet access, introduce latency,
 
 The HTML report is a standalone deliverable it can be saved, emailed, and opened without the tool manager being installed. Keeping it in its own module means it can be called from the CLI, the GUI, or directly, and its HTML generation logic does not pollute either UI module.
 
-# **14\. Possible Extensions**
+# **14\. Planned Extensions**
 
 - Live Version Lookups (GitHub API)
 Automatically queries the GitHub REST API to detect the latest releases for KiCad and Ngspice, ensuring users always have access to current binaries.
