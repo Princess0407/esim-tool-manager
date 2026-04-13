@@ -58,7 +58,7 @@ python3 main.py --gui          →  opens the Catppuccin-themed dashboard
 | # | Requirement | Status |
 |---|---|---|
 | 1 | Tool Installation Management | Implemented |
-| 2 | Update & Upgrade System | Implemented |
+| 2 | Update & Upgrade System | Partial |
 | 3 | Configuration Handling | Implemented |
 | 4 | Dependency Checker | Implemented |
 | 5 | User Interface + Logging | Implemented (both GUI and CLI) |
