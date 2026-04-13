@@ -18,9 +18,9 @@
 
 ## The Main Problem
 
-Setting up eSim from scratch is a fragmented experience. You need the right version of Ngspice for your eSim release, a compatible KiCad build, GHDL and Verilator for NgVeri mixed-signal work, and OpenModelica for system-level modelling — each with its own installation quirks, PATH requirements, and version constraints. A single wrong version silently breaks simulation runs.
+Setting up eSim from scratch is a fragmented experience. You need the right version of Ngspice for your eSim release, a compatible KiCad build, GHDL and Verilator for NgVeri mixed-signal work, and OpenModelica for system-level modelling each with its own installation quirks, PATH requirements, and version constraints. A single wrong version silently breaks simulation runs.
 
-`esim-tm` is a purpose-built manager that handles the entire lifecycle: discovery, installation, version validation against specific eSim releases, dependency checking, and health reporting — with both a terminal interface and a full graphical dashboard.
+`esim-tm` is a purpose-built manager that handles the entire lifecycle: discovery, installation, version validation against specific eSim releases, dependency checking, and health reporting with both a terminal interface and a full graphical dashboard.
 
 ---
 
