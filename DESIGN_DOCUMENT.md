@@ -280,7 +280,7 @@ The HTML report is a standalone deliverable it can be saved, emailed, and opened
 Automatically queries the GitHub REST API to detect the latest releases for KiCad and Ngspice, ensuring users always have access to current binaries.
 Provides real-time compatibility checks by fetching metadata directly from official tool repositories instead of relying on hardcoded versions.
 
--Update All Sequential Installer
+- Update All Sequential Installer
 Implements a threaded task queue to download and install all pending updates sequentially without freezing the user interface.
 Includes a unified progress tracker that displays the real-time status and remaining time for the entire batch update cycle.
 
