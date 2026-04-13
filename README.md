@@ -66,7 +66,8 @@ python3 main.py --gui          →  opens the Catppuccin-themed dashboard
 
 ---
 
-## Quickstart
+## Quick start Guide
+## For Linux Users
 
 ### Prerequisites
 - Python 3.10+
@@ -91,7 +92,87 @@ cd esim-tool-manager
 pip install customtkinter rich --break-system-packages
 python3 main.py
 ```
+## For Windows Users
 
+## 1. Prerequisites
+* **Python 3.10+**: Download from [python.org](https://www.python.org/downloads/windows/). 
+    * **CRITICAL:** Check the box **"Add Python to PATH"** during installation.
+* **Git**: Install [Git for Windows](https://gitforwindows.org/).
+
+## 2. Installation Steps
+Open **PowerShell** (search for it in the Start menu and select **Run as Administrator**(helpful in preventing permission issues).
+
+#### Clone the repository
+```powershell
+git clone [https://github.com/Princess0407/esim-tool-manager.git](https://github.com/Princess0407/esim-tool-manager.git)
+cd esim-tool-manager
+```
+
+### Create a virtual environment
+```powershell
+python -m venv venv
+```
+
+### Activate the environment
+```powershell
+.\venv\Scripts\activate
+```
+
+### Install dependencies
+```powershell
+pip install customtkinter rich
+```
+
+### Run the application
+```powershell
+python main.py
+```
+## For Mac users
+
+## 1. Prerequisites
+
+Before starting, ensure you have the following installed:
+
+* **Homebrew**: The easiest way to manage packages on macOS. If you don't have it, install it from [brew.sh](https://brew.sh/).
+* **Python 3.10+**: Install the latest version via Homebrew to ensure all dependencies work correctly:
+    ```zsh
+    brew install python
+    ```
+* **Git**: Usually pre-installed on macOS, but can be updated via:
+    ```zsh
+    brew install git
+    ```
+
+---
+
+## 2. Installation Steps
+
+Open your **Terminal** and run the following commands:
+
+### Clone the Repository**
+```zsh
+git clone [https://github.com/Princess0407/esim-tool-manager.git](https://github.com/Princess0407/esim-tool-manager.git)
+cd esim-tool-manager
+```
+### Create a Virtual Environment
+```zsh
+python3 -m venv venv
+```
+
+### Activate the Environment
+```zsh
+source venv/bin/activate
+```
+*Note: (Once activated, you should see (venv) appear at the beginning of your terminal prompt.)*
+
+### Install Dependencies
+```zsh
+pip install customtkinter rich
+```
+### Run the Application
+```zsh
+python3 main.py
+```
 ---
 
 ## Commands
