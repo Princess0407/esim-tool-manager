@@ -293,15 +293,9 @@ Every action logged to `~/.esim_tool_manager/manager.log`:
 | Document | Contents |
 |---|---|
 | [DESIGN_DOCUMENT.md](DESIGN_DOCUMENT.md) | Full architecture, module breakdown, design decisions |
-<<<<<<< HEAD
 | [docs/ARCHITECTURE.md](docs/Architecture.md) | Component diagrams, execution flow |
-| [docs/FEATURES.md](docs/FEATURES.md) | Full feature reference with implementation details |
-| [docs/USAGE.md](docs/Usage.md) | Real-world workflows with example outputs |
-=======
-| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Component diagrams, execution flow |
-| [docs/FEATURES.md](docs/FEATURES.md) | Full feature reference with implementation details |
-| [docs/USAGE.md](docs/USAGE.md) | Real-world workflows with example outputs |
->>>>>>> 2ac2ca9ec7798b0090cb6644585549ba32f9a8b4
+| [docs/FEATURES.md](docs/Features.md) | Full feature reference with implementation details |
+| [docs/USAGE.md](docs/Usage.md) | Real executed workflows with outputs |
 | [SAMPLE_OUTPUTS.txt](SAMPLE_OUTPUTS.txt) | Real terminal output from all commands |
 
 ---
@@ -312,8 +306,5 @@ MIT License — developed as part of eSim Summer Fellowship 2026, Task 5.
 
 <div align="center">
 <sub>Built for FOSSEE eSim Summer Fellowship 2026 · IIT Bombay</sub>
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> 2ac2ca9ec7798b0090cb6644585549ba32f9a8b4
+
