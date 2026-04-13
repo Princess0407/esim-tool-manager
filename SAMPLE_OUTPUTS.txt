@@ -105,5 +105,25 @@
   Log file sample (~/.esim_tool_manager/manager.log)
 ================================================================
 
-[Paste the last 20 lines of your log file here]
-cat ~/.esim_tool_manager/manager.log | tail -20
+COMMAND: cat ~/.esim_tool_manager/manager.log | tail -20
+
+2026-04-13 18:14:15  [INFO]  Tool scan: Verilator → ok (5.032)
+2026-04-13 18:14:15  [INFO]  Tool scan: OpenModelica → missing (not found)
+2026-04-13 18:14:57  [INFO]  eSim 2.4 compat: KiCad → too_old (vunknown is below minimum v6.0)
+2026-04-13 18:14:57  [INFO]  eSim 2.4 compat: Ngspice → too_old (v1985-1994 is below minimum v38)
+2026-04-13 18:14:57  [INFO]  eSim 2.4 compat: GHDL → too_new (v5.0.1 exceeds tested maximum v3.0 — may work but untested)
+2026-04-13 18:14:57  [INFO]  eSim 2.4 compat: Verilator → too_new (v5.032 exceeds tested maximum v5.0 — may work but untested)
+2026-04-13 18:14:57  [INFO]  eSim 2.4 compat: OpenModelica → missing (Not installed. Required: 1.20 – 1.22)
+2026-04-13 18:14:57  [INFO]  eSim 2.4 overall compatibility: incompatible
+2026-04-13 18:15:00  [INFO]  eSim 2.5 compat: KiCad → too_old (vunknown is below minimum v8.0)
+2026-04-13 18:15:00  [INFO]  eSim 2.5 compat: Ngspice → too_old (v1985-1994 is below minimum v40)
+2026-04-13 18:15:00  [INFO]  eSim 2.5 compat: GHDL → too_new (v5.0.1 exceeds tested maximum v4.1 — may work but untested)
+2026-04-13 18:15:00  [INFO]  eSim 2.5 compat: Verilator → too_new (v5.032 exceeds tested maximum v5.024 — may work but untested)
+2026-04-13 18:15:00  [INFO]  eSim 2.5 compat: OpenModelica → missing (Not installed. Required: 1.22 – 1.24)
+2026-04-13 18:15:00  [INFO]  eSim 2.5 overall compatibility: incompatible
+2026-04-13 18:15:05  [INFO]  eSim 2.3 compat: KiCad → too_old (vunknown is below minimum v5.1)
+2026-04-13 18:15:05  [INFO]  eSim 2.3 compat: Ngspice → too_old (v1985-1994 is below minimum v36)
+2026-04-13 18:15:05  [INFO]  eSim 2.3 compat: GHDL → too_new (v5.0.1 exceeds tested maximum v2.0 — may work but untested)
+2026-04-13 18:15:05  [INFO]  eSim 2.3 compat: Verilator → too_new (v5.032 exceeds tested maximum v4.2 — may work but untested)
+2026-04-13 18:15:05  [INFO]  eSim 2.3 compat: OpenModelica → missing (Not installed. Required: 1.18 – 1.20)
+2026-04-13 18:15:05  [INFO]  eSim 2.3 overall compatibility: incompatible
